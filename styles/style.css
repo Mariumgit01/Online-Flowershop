@@ -1,0 +1,214 @@
+/* header related styles*/
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+   
+}
+.banner{
+    margin: 100px 350px 40px 240px;
+}
+.banner-pic{
+    height: 600px;
+    width: 600px;
+
+}
+.btn-primary{
+    background-color:#E55473 ;
+    color: white;
+    padding: 20px 40px;
+    border-style: none;
+    border-radius: 5px;
+
+}
+.header p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/*main related styles-featured flowers*/
+
+
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 663px;
+}
+.feature-container p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.flower-container{
+    margin: 20px 240px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.flower1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower1 a{
+    color: black;
+}
+.pink-tulip{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding:110px 76px 0px 76px ;
+    margin-right: 10px;
+}
+.pink-tulip-pic{
+    height: 420px;
+    width: 310px;
+}
+
+.buquet{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;  
+    margin-right: 10px;  
+}
+.buquet-pic{
+    height: 370px;
+    width: 370px;
+}
+.yellow-tulip{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0px 75px;
+}
+
+
+
+/*main related styles-icons*/
+
+.icons-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); 
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+   margin: 50px 50px 50px 240px
+}
+
+
+  
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon-pics{
+    height: 88px;
+    width: 88pox;
+}
+.icon p{
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.80);
+}
+
+/* deal and promotion related styles */
+
+.deal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(229, 84, 115, 0.10);
+    text-align: center;
+    gap: 400px;
+    padding:100px 0px ;
+
+}
+.deal-container p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* instagram related style */
+
+
+.insta-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin: 50px 0px;
+
+
+}
+
+.insta-heading p{
+    font-size: 18px;
+    color:rgba(39, 39, 39, 0.60); 
+    text-align: center;
+}
+
+.insta-flowers-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+/* subscription section related style */
+
+.subs-container{
+    background-image:url(/images/subscribe.png);
+    margin: 100px 220px;
+    height: 450px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+
+}
+#email{
+    padding: 15px 500px 15px 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* footer ralated style */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin: 30px 0px 0px 0px ;
+    
+
+}
+.footer-heading{
+    padding:50px 0px 0px 0px ;
+}
+
+
