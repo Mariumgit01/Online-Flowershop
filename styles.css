@@ -186,7 +186,7 @@ body{
 /* subscription section related style */
 
 .subs-container{
-    background-image:url("../images/subscribe.png");
+    background-image:url(./images/subscribe.png);
     margin: 100px 220px;
     height: 450px;
     background-repeat: no-repeat;
